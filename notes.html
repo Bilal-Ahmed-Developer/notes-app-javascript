@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Document</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+</head>
+
+<body>
+     <nav class="navbar navbar-dark bg-dark"">
+          <div class=" container-fluid">
+          <a class="navbar-brand">Magic Notes</a>
+          <form class="d-flex" role="search">
+               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+               <button class="btn btn-outline-success  text-white  " type="submit">Search</button>
+          </form>
+          </div>
+     </nav>
+     <div class="container my-3">
+          <h1 class="">Welcome to Magic Notes</h1>
+          <div class="card ">
+               <div class="card-body">
+                    <h5 class="card-title">Add a Note</h5>
+                    <div class="mb-3">
+                         <textarea class="form-control" id="addTxt" rows="3"></textarea>
+                    </div>
+                    <a href="#" class="btn btn-primary" id="addbtn">Add note</a>
+               </div>
+          </div>
+          <!-- <h2 class="my-3">Your Notes</h2>
+          <hr> -->
+          <div id="notes" class="row container-fluid">
+               <div class="noteCard my-3 card" style="width: 22rem;">
+                    <div class="card-body">
+                         <h5 class="card-title">Note</h5>
+                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                              the card's content.</p>
+                         <a href="#" class="btn btn-primary">Delete this note</a>
+                    </div>
+               </div>
+               
+          </div>
+
+
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+               integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+               crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+               integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+               crossorigin="anonymous"></script>
+          <script src="notes.js"></script>
+
+</body>
+
+</html>
